@@ -12,6 +12,16 @@
   <% end %>
 
   <div class="field">
+    <%= form.label :topic_id %>
+    <%= form.collection_select(:topic_id, Topic.all, :id, :title,
+                                {
+                                    include_blank: true
+                                },
+                                )
+    %>
+  </div>
+
+  <div class="field">
     <%= form.label :title %>
     <%= form.text_field :title %>
   </div>

@@ -26,7 +26,6 @@ end
 
 puts "5 skills creeted"
 
-
 8.times do |portfolio_item|
   Portfolio.create!(
     title: "Portfolio Title: #{portfolio_item}",
