@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/samerhaija/fivemjim_view_tool
+  revision: 4742d6bf8c3ee455164b4130295c81fd24a9f896
+  specs:
+    fivemjim_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -213,6 +219,7 @@ DEPENDENCIES
   bootstrap (~> 4.5.2)
   byebug
   devise (~> 4.7, >= 4.7.2)
+  fivemjim_view_tool!
   friendly_id (~> 5.2.4)
   jbuilder (~> 2.7)
   jquery-rails

@@ -53,3 +53,5 @@ gem 'devise', '~> 4.7', '>= 4.7.2'
 gem 'bootstrap', '~> 4.5.2'
 
 gem 'jquery-rails'
+
+gem 'fivemjim_view_tool', git: 'https://github.com/samerhaija/fivemjim_view_tool'

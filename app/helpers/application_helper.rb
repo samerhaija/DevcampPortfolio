@@ -15,5 +15,10 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")      
     end
   end
+
+  def copyright_generator
+    @copyright = FiveMJImViewTool::Renderer.copyright 'Samer Haija', 'All rights reserved'
+  end
+
 end
 
