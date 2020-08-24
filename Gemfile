@@ -55,3 +55,5 @@ gem 'bootstrap', '~> 4.5.2'
 gem 'jquery-rails'
 
 gem 'fivemjim_view_tool', git: 'https://github.com/samerhaija/fivemjim_view_tool'
+
+gem 'petergate', '~> 2.0', '>= 2.0.1'
