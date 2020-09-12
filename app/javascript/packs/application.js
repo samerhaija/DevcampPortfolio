@@ -4,11 +4,17 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
-require("query-ui")
-require("html.sortable")
+// require("jquery")
+require("jquery-ui")
+//require("html.sortable")
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+
+$(function(){
+  $('.sortable').sortable();
+});
+
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
